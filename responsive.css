@@ -1,0 +1,261 @@
+@media only screen and (max-width:1200px) {
+    .container {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        
+       
+    }
+    .container-grid {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr));
+    }
+    .main_wrapper {
+        width: 100%;
+        margin: 0;
+
+       
+        justify-content: space-around;
+        overflow: hidden;
+    }
+    
+    .image_div {
+        width: 96%;
+        height:auto;
+        
+        margin-bottom: .5rem;
+    }
+
+    .thumbnail {
+        width: 100%;
+    }
+
+    .video {
+
+        font-size: 1rem;
+    }
+
+    .all {
+
+        font-size: 0.6rem;
+        padding: 0.1rem 0.875rem;
+    }
+
+    .politics {
+        font-size: 0.6rem;
+        padding: 0.1rem 0.875rem;
+    }
+
+    .covid {
+        font-size: 0.6rem;
+        padding: 0.1rem 0.875rem;
+    }
+
+    .health {
+        font-size: 0.6rem;
+        padding: 0.1rem 0.875rem;
+    }
+
+    .about_slider_1 {
+        width: 100%;
+    }
+
+    .video_container {
+        position: fixed;
+        top: 25%;
+        left: 20%;
+        width: 60%;
+
+        z-index: 99999;
+
+        display: flex;
+        align-items: center;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(1.8rem, 1fr));
+    }
+
+    .horizontal_line {
+        width: 40rem;
+        height: 0.101rem;
+    }
+   
+}
+@media only screen and (max-width:992px){
+    .container {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .container-grid {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr));
+    }
+
+    .main_wrapper {
+        width: 100%;
+        margin: 0;
+
+       
+        justify-content: space-around;
+        overflow: hidden;
+    }
+
+    .image_div {
+        width: 96%;
+        height:auto;
+        
+        margin-bottom: .5rem;
+    }
+
+    .thumbnail {
+        width: 100%;
+    }
+
+    .video {
+
+        font-size: 1rem;
+    }
+
+    .all {
+
+        font-size: 0.6rem;
+        padding: 0.1rem 0.875rem;
+    }
+
+    .politics {
+        font-size: 0.6rem;
+        padding: 0.1rem 0.875rem;
+    }
+
+    .covid {
+        font-size: 0.6rem;
+        padding: 0.1rem 0.875rem;
+    }
+
+    .health {
+        font-size: 0.6rem;
+        padding: 0.1rem 0.875rem;
+    }
+
+    .about_slider_1 {
+        width: 100%;
+    }
+
+    .video_container {
+        position: fixed;
+        top: 25%;
+        left: 20%;
+        width: 60%;
+
+        z-index: 99999;
+
+        display: flex;
+        align-items: center;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(1.8rem, 1fr));
+    }
+
+    .horizontal_line {
+        width: 21rem;
+        height: 0.101rem;
+    }
+   
+}
+
+@media only screen and (max-width:576px) {
+    .container {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .container-grid {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr));
+    }
+
+    .main_wrapper {
+        width: 100%;
+        margin: 0;
+
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    .image_div {
+        width: 100%;
+        height:auto;
+        margin-bottom: .5rem;
+    }
+
+    .thumbnail {
+        width: 100%;
+    }
+
+    .video {
+
+        font-size: 1rem;
+    }
+
+    .all {
+
+        font-size: 0.6rem;
+        padding: 0.1rem 0.875rem;
+    }
+
+    .politics {
+        font-size: 0.6rem;
+        padding: 0.1rem 0.875rem;
+    }
+
+    .covid {
+        font-size: 0.6rem;
+        padding: 0.1rem 0.875rem;
+    }
+
+    .health {
+        font-size: 0.6rem;
+        padding: 0.1rem 0.875rem;
+    }
+
+    .about_slider_1 {
+        width: 100%;
+    }
+
+    .video_container {
+        position: fixed;
+        top: 25%;
+        left: 20%;
+        width: 60%;
+
+        z-index: 99999;
+
+        display: flex;
+        align-items: center;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(1.8rem, 1fr));
+    }
+
+    .horizontal_line {
+        width: 21rem;
+        height: 0.101rem;
+    }
+}

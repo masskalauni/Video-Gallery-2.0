@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+a[href=""]{
+    text-decoration: none;
+}
+:root{
+    /* Colors */
+    --color-darkslateblue: #25378e;
+    --color-gray: #fbfefb;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-lightblue:  #F1F2F6;
+    --color-darkslategray: #33486c;
+    --color-thistle: #f7cfe1;
+    --color-palevioletred-100: #8f415e;
+    --color-lemonchiffon: #faecc3;
+    --color-darkkhaki-100: #b7a56b;
+    --color-blue:#000575;
+    --color-all: #802D4B;
+    --color-background-health: #C5DAEE;
+    --color-background-covid: #F7CFE1;
+    --color-background-politics:#FAECC3;
+    --color-politics: #A18E4E;
+    --color-background-all:#CBE7D4;
+    --color-green:#477F5E;;
+}
+button{
+    border:none;
+}
